@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="learningPhase.appium.SimpleAndroidCalcTest">
+      <class name="learningPhase.appium.WatsApp">
         <methods>
           <include name="setUp"/>
           <include name="Sum"/>
-          <include name="End"/>
         </methods>
-      </class> <!-- learningPhase.appium.SimpleAndroidCalcTest -->
+      </class> <!-- learningPhase.appium.WatsApp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

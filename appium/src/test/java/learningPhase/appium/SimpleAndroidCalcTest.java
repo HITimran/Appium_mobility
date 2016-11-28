@@ -53,25 +53,7 @@ public class SimpleAndroidCalcTest {
 
  @Test
  public void Sum() {
-/*  // Click on DELETE/CLR button to clear result text box before running test.
-	 driver.findElement(By.xpath("//*[@content-desc='Calculator']")).click();
-  driver.findElements(By.xpath("//android.widget.Button")).get(0).click();
 
-  // Click on number 2 button.
-  driver.findElement(By.name("2")).click();
-
-  // Click on + button.
-  driver.findElement(By.name("+")).click();
-
-  // Click on number 5 button.
-  driver.findElement(By.name("5")).click();
-
-  // Click on = button.
-  driver.findElement(By.name("=")).click();
-
-  // Get result from result text box.
-  String result = driver.findElement(By.className("android.widget.EditText")).getText();
-*/ 
 	 driver.findElement(By.xpath("//*[@content-desc='7']")).click();
 	 driver.findElement(By.xpath("//*[@content-desc='multiplication']")).click();
 	 driver.findElement(By.xpath("//*[@content-desc='8']")).click();
